@@ -6,7 +6,7 @@
 ### 通过 POST 请求 /solve 端点来解决 TSP 问题，请求体应包含 JSON 格式的输入数据
 &emsp;&emsp;`curl -X POST -H "Content-Type: application/json" -d @input.json http://localhost:5000/solve`
 ### 文件结构
-<img src="D:\sharing file\久章-TSP\structure.png"/>
+<img src="&quot;https://github.com/jiuzhangteam/Solve-TSP-by-Concorde/blob/main/structure.png&quot;"/>
 
 ### 代码说明
 &emsp;&emsp;Data 类：负责读取和处理输入数据，包括订单、车辆和仓库信息。\
